@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'poppins', sans-seriff;
+    box-sizing: border-box;
+}
+body{
+    color: white;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(tesla.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+}
+
+nav{
+    display:  flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+}
+.logo{
+    width: 130px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: -100px;
+    background: transparent;
+}
+nav button{
+    position: absolute;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    color: white;
+    padding:2px 80px;
+    font-size: 12px;
+    cursor: pointer;
+}
+.que{
+    position: absolute;
+    margin: 0 1150px;
+}
+.web{
+    margin: 0 1200px;
+}
+.profile{
+    margin: 0 1250px;
+}
+.a{
+    margin-left: 350px;
+    font-size: 15px;
+}
+.b{
+    margin-left: 430px;
+    font-size: 15px;
+}
+.c{
+    margin-left: 510px;
+    font-size: 15px;
+}
+.d{
+    margin-left: 600px;
+    font-size: 15px;
+}
+.e{
+    margin-left: 680px;
+    font-size: 15px;
+}
+.header-content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    margin-top: 1%;
+}
+.header-content h1{
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 550;
+    max-width: 650px;
+    margin-top: -300px;
+}
+.header-content h2{
+    font-family: ;
+    font-weight: 20;
+    margin-top: 1px;
+}
+.header-content h3{
+    padding-top: -10px;
+    font-weight: 430;
+    margin-bottom: 20px;
+}
+.order{
+    color: #fff;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    position: absolute;
+    font-size: 15px;
+    margin: 600px 350px;
+    width: 250px;
+    height: 40px;
+    outline: transparent;
+    background-color: #406ce4;
+}
+.demo{
+    border: 0;
+    outline: 0;
+    align-items: center;
+    position: absolute;
+    font-size: 15px;
+    margin: 600px 620px;
+    width: 250px;
+    height: 40px;
+    outline: transparent;
+    background-color: white;
+}
